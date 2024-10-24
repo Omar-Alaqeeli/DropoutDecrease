@@ -1,3 +1,5 @@
+#The following code is intended for reproducing results of dropout events in colour datasets.
+
 library(xtable)
  
 library(scales) 
