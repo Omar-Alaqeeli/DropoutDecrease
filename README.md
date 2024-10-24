@@ -155,6 +155,8 @@ for (i in df$id) {
 }
 
 png(file = paste0("dataset_id.png"))
+
 plot(1:length(EMTAB2805), EMTAB2805, type = "l", main = "EMTAB2805", xlab="Number of gene abundance entries", ylab="The total number of zeros", col = "red")
+
 dev.off()
 
